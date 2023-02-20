@@ -1,7 +1,10 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
+
+function generateMarkdown(data, licenseInfo) {
   return `
 # ${data.title}
+
+${licenseInfo.badge}
 
 ## Description
 
@@ -19,12 +22,9 @@ ${data.installation}
 
 ${data.usage}
 
-## License
+## ${data.license}
 
-${data.license.name}
-
-${data.license.description}
-
+${licenseInfo.description}
 
 ## Contributing
 
