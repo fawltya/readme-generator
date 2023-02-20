@@ -9,7 +9,7 @@ const questions = [
   },
   {
     name: "description",
-    message: "Description",
+    message: "Describe your project.",
   },
   {
     name: "contents",
@@ -17,11 +17,11 @@ const questions = [
   },
   {
     name: "installation",
-    message: "Installation",
+    message: "How is the project installed?",
   },
   {
     name: "usage",
-    message: "useage",
+    message: "How do you use the project/application?",
   },
   {
     name: "license",
@@ -101,18 +101,27 @@ const questions = [
       },
     ],
   },
+
   {
     name: "contributing",
-    message: "Contributing",
+    message: "How can someone contribute to the project?",
   },
   {
-    name: "tests",
-    message: "Tests",
+    name: "github",
+    message: "What is your GitHub username?",
   },
   {
-    name: "questions",
-    message: "questions",
+    name: "email",
+    message: "What is your email address?",
   },
+  //   {
+  //     name: "tests",
+  //     message: "Tests",
+  //   },
+  //   {
+  //     name: "questions",
+  //     message: "questions",
+  //   },
 ];
 
 function writeToFile(data, licenseInfo) {

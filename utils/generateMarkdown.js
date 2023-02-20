@@ -14,6 +14,12 @@ ${data.description}
 
 ${data.contents}
 
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+5. [Questions](#questions)
+
 ## Installation
 
 ${data.installation}
@@ -22,7 +28,7 @@ ${data.installation}
 
 ${data.usage}
 
-## ${data.license}
+## <a id="license"></a>${data.license}
 
 ${licenseInfo.description}
 
@@ -30,14 +36,11 @@ ${licenseInfo.description}
 
 ${data.contributing}
 
-## Tests
-
-${data.tests}
-
 ## Questions
 
-${data.questions}
+GitHub profile: <https://github.com/${data.github}>
 
+If you have any additional questions feel free to **[email me](mailto:${data.email})**
 
 `;
 }
