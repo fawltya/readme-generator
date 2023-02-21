@@ -10,8 +10,6 @@ ${data.description}
 
 ## Table of Contents
 
-${data.contents}
-
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [License](#license)
