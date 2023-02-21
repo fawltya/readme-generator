@@ -1,3 +1,4 @@
+// Import modules
 import inquirer from "inquirer";
 import fs from "fs";
 import generateMarkdown from "./utils/generateMarkdown.js";
@@ -37,11 +38,9 @@ const questions = [
       {
         name: "Mozilla Public License 2.0",
       },
-
       {
         name: "GNU Affero General Public License v3.0",
       },
-
       {
         name: "The Unlicense",
       },
@@ -66,11 +65,6 @@ const questions = [
     name: "email",
     message: "What is your email address?",
   },
-  //   {
-  //     name: "tests",
-  //     message: "Tests",
-  //   },
-  //   {
 ];
 
 function writeToFile(data, licenseInfo) {
@@ -156,4 +150,4 @@ async function init() {
     });
 }
 
-init(); // call the init function
+init();
